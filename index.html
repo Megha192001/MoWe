@@ -46,7 +46,9 @@
 <header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
 <div id="header-wrap">
 <div class="container clearfix">
-<div id="primary-menu-trigger"><i class="fas fa-grip-lines"></i></div>
+<div id="primary-menu-trigger"><span class="material-icons">
+  menu
+  </span></div>
 
 <div id="logo">
   <h1 style="padding: 1rem;">MoWe</h1>
@@ -55,21 +57,21 @@
 <nav id="primary-menu" class="dark">
 <ul>
 <li><a>About Us</a></li>
-<li class="sub-menu"><a>Services <i class="fas fa-chevron-down"></i></a>
+<li class="sub-menu"><a>Services </a>
 <ul>
-<li><a><i class="fas fa-mobile"></i>Mobile App Development</a></li>
-<li><a><i class="fab fa-android"></i>Android APPs</a></li>
-<li><a><i class="fab fa-apple"></i>iOS APPs</a></li>
-<li><a><i class="fas fa-tv"></i>Web Development</a></li>
-<li><a><i class="fas fa-shopping-cart"></i>E-commerce</a></li>
-<li><a><i class="fas fa-bullhorn"></i>Digital Marketing</a></li>
+<li><a>Mobile App Development</a></li>
+<li><a>Android APPs</a></li>
+<li><a>iOS APPs</a></li>
+<li><a>Web Development</a></li>
+<li><a>E-commerce</a></li>
+<li><a>Digital Marketing</a></li>
 </ul>
 </li>
-<li class="sub-menu"><a>Our Projects <i class="fas fa-chevron-down"></i></a>
+<li class="sub-menu"><a>Our Projects </a>
 <ul>
-<li><a><i class="fas fa-border-all"></i>All</a></li>
-<li><a><i class="fas fa-globe"></i>Website</a></li>
-<li><a><i class="fas fa-rocket"></i>Mobile Apps</a></li>
+<li><a>All</a></li>
+<li><a>Website</a></li>
+<li><a>Mobile Apps</a></li>
 </ul>
 </li>
 <!--li class="mega-menu"><a href="#">Blog</a></li-->
@@ -77,7 +79,7 @@
 </ul>
 
 <div id="top-cart">
-<button class="button button-small nomargin mybtn"><span class="contact-text"><a><i class="fas fa-phone-alt"></i>Contact</a></span></button>
+<button class="button button-small nomargin mybtn"><span class="contact-text"><a>Contact</a></span></button>
 </div>
 
 </nav>
@@ -101,7 +103,7 @@
 	</div> 
 	<input type="number" id="mobileNO" name="mobile" class="form-control valid formno number" value="" placeholder="Mobile" maxlength="10" required>
 	<button class="button button-reveal tright slide-button" type="submit" onclick="submitForm('form1');">
-<i class="fas fa-angle-right"></i><span>Want a discussion?</span></a>
+<span>Want a discussion?</span></a>
 </div>
 </form>
 </div>
@@ -121,7 +123,7 @@
 	</div> 
 	<input type="number" id="mobileNO" name="mobile" class="form-control required valid formno number" value="" placeholder="Mobile" maxlength="10">
 	<button class="button button-reveal tright slide-button" type="submit" onclick="submitForm('form2');">
-    <i class="fas fa-angle-right"></i><span>Want a discussion?</span></a>
+    <span>Want a discussion?</span></a>
 	</div>
 </form>
 </div>
@@ -135,14 +137,18 @@
 </div>
 </div>
 </div>
-<div class="slider-arrow-left"><i class="fas fa-angle-left"></i></div>
-<div class="slider-arrow-right"><i class="fas fa-angle-right"></i></div>
+<div class="slider-arrow-left"></div>
+<div class="slider-arrow-right"></div>
 </div>
 <!--<a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>-->
 </div>
 </section>
 <div class="mn-pan web-cap toggle">
-<h4 class="togglet">Want a discussion<i class="toggle-closed fas fa-plus-circle"></i><i class="toggle-open fas fa-plus-circle"></i></h4>
+<h4 class="togglet">Want a discussion<i class="toggle-closed"><span class="material-icons">
+  add_circle_outline
+  </span></i><i class="toggle-open"><span class="material-icons">
+    add_circle_outline
+    </span></i></h4>
 <div class="container clearfix togglec">
 <div class="slider-caption slider-caption-center" data-aos="fade-right" data-aos-duration="2000">
 
@@ -175,12 +181,16 @@
 <h5>Mobile Apps</h5>
 </div>
 <div class="col-lg-4 col-md-6 center web hover-effect" data-aos="flip-right" data-aos-duration="2000">
-  <i class="fas fa-laptop  fa-3x" style="margin-top: 1rem;"></i>
+  <span class="material-icons" style="font-size: 3rem;margin-top: 1rem;">
+    laptop
+    </span>
 <div class="counter counter-lined"><span data-from="0" data-to="50" data-refresh-interval="1" data-speed="1000"></span>+</div>
 <h5>Websites</h5>
 </div>
 <div class="col-lg-4 col-md-6 center client hover-effect" data-aos="flip-down" data-aos-duration="2000">
-  <i class="fas fa-users fa-3x" style="margin-top: 1rem;"></i>
+  <span class="material-icons" style="font-size: 3rem;margin-top: 1rem;">
+    groups
+    </span>
 <div class="counter counter-lined"><span data-from="0" data-to="100" data-refresh-interval="1" data-speed="1000"></span>%</div>
 <h5>Happy Clients</h5>
 </div>
@@ -264,18 +274,12 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 <div class="row bottommargin-sm">
 <div class="col-lg-4 col-md-6 bottommargin">
 <div class="feature-box fbox-right topmargin" data-aos="zoom-in-right">
-<div class="fbox-icon">
-<a><i class="fas fa-heart"></i></i></a>
-</div>
 <div class="service-text">
 <h3>Creative Design</h3>
 <p>Making design choices isn't daunting? You can obtain wide range of unique, artstic & innovative choices.</p>
 </div>
 </div>
 <div class="feature-box fbox-right topmargin" data-aos="flip-left" data-aos-duration="1000">
-<div class="fbox-icon">
-<a><i class="fas fa-file-contract"></i></a>
-</div>
 <div class="service-text">
 <h3>Cost Effective</h3>
 <p>By thoroughly analyzing your services & products, we provide tailored cost-effective solutions. </p>
@@ -287,18 +291,13 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 </div>
 <div class="col-lg-4 col-md-6 bottommargin">
 <div class="feature-box topmargin" data-aos="zoom-out-left">
-<div class="fbox-icon">
-<a><i class="fas fa-power-off"></i></a>
-</div>
   <div class="service-text">
    <h3>Reliability</h3>
    <p>You can trust us for developing highest quality projects with trending technology & assured performance.</p>
   </div>
 </div>
 <div class="feature-box topmargin" data-aos="flip-right" data-aos-duration="1000">
-<div class="fbox-icon">
-<a><i class="fas fa-check"></i></a>
-</div>
+
 <div class="service-text">
 <h3>Full-Proof Testing</h3>
 <p>Performance testing of system is done at every stage during production. Full-Proof testing is done before delivery. </p>
@@ -431,13 +430,25 @@ At MoWe we understand requirements of the client & uncover goals of the project,
   <div class="oc-item" data-aos="fade-left" data-aos-offset="300" data-aos-duration="300">
     <div class="ievent clearfix">
       <div class="entry-c">
-	    <div class="icn"><i class="fas fa-quote-left"></i></div>
+	    <div class="icn"><span class="material-icons">
+format_quote
+</span></div>
           <div class="entry-title">
              <h2>When I decided to start a my business, I had no idea where to start. The App developed by MoWe groomed my business. 
 		     Very professional and creative.
 		    </h2> 
 			<div class="r-box">
-               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span>
               </div>
            </div>
 		 <div class="user">
@@ -449,12 +460,24 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 <div class="oc-item" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <div class="ievent clearfix">
       <div class="entry-c">
-	    <div class="icn"><i class="fas fa-quote-left"></i></div>
+	    <div class="icn"><span class="material-icons">
+format_quote
+</span></div>
           <div class="entry-title">
              <h2>Excellent work as always. Very creative and effective. Websites designed by MoWe Technology are finest.
 		    </h2> 
 			<div class="r-box">
-               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span>
               </div>
            </div>
 		 <div class="user">
@@ -466,12 +489,24 @@ At MoWe we understand requirements of the client & uncover goals of the project,
  <div class="oc-item" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <div class="ievent clearfix">
       <div class="entry-c">
-	    <div class="icn"><i class="fas fa-quote-left"></i></div>
+	    <div class="icn"><span class="material-icons">
+format_quote
+</span></div>
           <div class="entry-title">
              <h2>IT Support that always I recommend. From App to website and Maintaince to Digital Marketing everything is done by them for my company.
 		    </h2> 
 			<div class="r-box">
-               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span>
               </div>
            </div>
 		 <div class="user">
@@ -483,12 +518,24 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 <div class="oc-item">
     <div class="ievent clearfix">
       <div class="entry-c">
-	    <div class="icn"><i class="fas fa-quote-left"></i></div>
+	    <div class="icn"><span class="material-icons">
+format_quote
+</span></div>
           <div class="entry-title">
              <h2>Highly Recommended!! MoWe was referred to me by a trustworthy friend. I am happy to say that I am not disappointed.
 		    </h2>
 			<div class="r-box">
-               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span>
               </div>
            </div>
 		 <div class="user">
@@ -500,12 +547,24 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 <div class="oc-item">
     <div class="ievent clearfix">
       <div class="entry-c">
-	    <div class="icn"><i class="fas fa-quote-left"></i></div>
+	    <div class="icn"><span class="material-icons">
+format_quote
+</span></div>
           <div class="entry-title">
              <h2>I am really impressed with their work. Looking for a long professional relationalship.
 		    </h2> 
 			<div class="r-box">
-               <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span><span class="material-icons">
+star_rate
+</span>
               </div>
            </div>
 		 <div class="user">
@@ -563,18 +622,12 @@ At MoWe we understand requirements of the client & uncover goals of the project,
   <div class="row bottommargin-sm">
   <div class="col-lg-4 col-md-6 bottommargin">
   <div class="feature-box fbox-right topmargin" data-aos="zoom-in-right">
-  <div class="fbox-icon">
-  <a><i class="fas fa-heart"></i></i></a>
-  </div>
   <div class="service-text">
   <h3>Creative Design</h3>
   <p>Easy app to work with.</p>
   </div>
   </div>
   <div class="feature-box fbox-right topmargin" data-aos="flip-left" data-aos-duration="1000">
-  <div class="fbox-icon">
-  <a><i class="fas fa-file-contract"></i></a>
-  </div>
   <div class="service-text">
   <h3>Cost Effective</h3>
   <p>Affordable plans available for every type of user.</p>
@@ -586,18 +639,12 @@ At MoWe we understand requirements of the client & uncover goals of the project,
   </div>
   <div class="col-lg-4 col-md-6 bottommargin">
   <div class="feature-box topmargin" data-aos="zoom-out-left">
-  <div class="fbox-icon">
-  <a><i class="fas fa-power-off"></i></a>
-  </div>
     <div class="service-text">
      <h3>Reliability</h3>
      <p>You can trust us for keeping your data safe.</p>
     </div>
   </div>
   <div class="feature-box topmargin" data-aos="flip-right" data-aos-duration="1000">
-  <div class="fbox-icon">
-  <a><i class="fas fa-check"></i></a>
-  </div>
   <div class="service-text">
   <h3>Need of the hour</h3>
   <p>In these tough times of Covid,it helps you to stay away from people and also get your work done </p>
@@ -630,7 +677,11 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 </div>
 <div class="col_one_third mob-toggle"> 
 <div class="widget clearfix toggle">
-<h4 class="togglet">Company Info <i class="toggle-closed fas fa-plus-circle"></i><i class="toggle-open fas fa-minus-circle"></i></h4>
+<h4 class="togglet">Company Info <i class="toggle-closed"><span class="material-icons">
+  add_circle_outline
+  </span></i><i class="toggle-open"><span class="material-icons">
+    add_circle_outline
+    </span></i></h4>
 <ul class="togglec">
 <li><a>About Us</a></li>
 <li><a>Portfolio</a></li>
@@ -656,7 +707,11 @@ At MoWe we understand requirements of the client & uncover goals of the project,
 </div>
 <div class="col_one_third mob-toggle">
 <div class="widget clearfix toggle">
-<h4 class="togglet">Our Services <i class="toggle-closed fas fa-plus-circle"></i><i class="toggle-open fas fa-minus-circle"></i></h4>
+<h4 class="togglet">Our Services <i class="toggle-closed"><span class="material-icons">
+  add_circle_outline
+  </span></i><i class="toggle-open"><span class="material-icons">
+    add_circle_outline
+    </span></i></h4>
 <ul class="togglec">
 <li><a>Mobile App Development</a></li>
 <li><a >Android Apps</a></li>
@@ -683,7 +738,11 @@ At MoWe we understand requirements of the client & uncover goals of the project,
   </div>
   <div class="col_one_third col_last mob-toggle">
   <div class="widget clearfix toggle">
-  <h4 class="togglet toggle">Our Products <i class="toggle-closed fas fa-plus-circle"></i><i class="toggle-open fas fa-minus-circle"></i></h4>
+  <h4 class="togglet toggle">Our Products <i class="toggle-closed"><span class="material-icons">
+    add_circle_outline
+    </span></i><i class="toggle-open"><span class="material-icons">
+      add_circle_outline
+      </span></i></h4>
   <ul class="togglec">
   <li><a>Healthcare Solutions</a></li>
   <li><a>College Management</a></li>
@@ -696,46 +755,45 @@ At MoWe we understand requirements of the client & uncover goals of the project,
   </div>
   </div>
 <div class="col_one_third col_last web-toggle">
-<div class="widget clearfix" style="margin-bottom: -20px;">
+<div class="widget clearfix">
 <h4>Contact Us </h4>
 <div class="foot-bg">
  <div class="ic-box">
-   <span><i class="fas fa-map-marked-alt"></i></span>
-  <span class="ph"><i class="fas fa-phone-alt"></i></span>
-  <span><i class="fas fa-envelope"></i></span>
+   <span><span class="material-icons">
+    home
+    </span></span>
+
   
  </div>
  <div class="add-box">
 <address>
 <strong>Office Address:</strong><br>
-6th Floor, C-56/11,Sector - 11
-Delhi, India, Pin: 110001<br>
+Delhi,India
 </address>
-<abbr title="Phone Number">+91-000000000<br><br>
-<abbr title="E-mail">info@MoWe.in<br>
 </div>
 </div>
 
 </div>
 </div>
 <div class="col_one_third col_last mob-toggle">
-<div class="widget clearfix toggle" style="margin-bottom: -20px;">
-<h4 class="togglet toggle">Contact Us <i class="toggle-closed fas fa-plus-circle"></i><i class="toggle-open fas fa-plus-circle"></i></h4>
+<div class="widget clearfix toggle" >
+<h4 class="togglet toggle">Contact Us <i class="toggle-closed"><span class="material-icons">
+  add_circle_outline
+  </span></i><i class="toggle-open"><span class="material-icons">
+    add_circle_outline
+    </span></i></h4>
 <div class="foot-bg togglec">
  <div class="ic-box">
-   <span><i class="fas fa-map-marked-alt"></i></span>
-  <span class="ph"><i class="fas fa-phone-alt"></i></span>
-  <span><i class="fas fa-envelope"></i></span>
+   <span><span class="material-icons">
+    home
+    </span></span>
   
  </div>
  <div class="add-box">
 <address>
 <strong>Office Address:</strong><br>
-6th Floor, C-56/11, Sector - 11
-Delhi, India, Pin: 110001<br>
+Delhi,India
 </address>
-<abbr title="Phone Number">+91-00000000<br><br>
-<abbr title="E-mail">info@MoWe.in<br>
 </div>
 </div>
 
@@ -752,7 +810,7 @@ Delhi, India, Pin: 110001<br>
 </footer>
 </div>
 
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <script src="https://abym.in/assets/js/jquery.js"></script>
 <script src="https://abym.in/assets/js/plugins.js"></script>
 <script src="https://abym.in/assets/js/star-rating.js"></script>
